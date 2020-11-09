@@ -10,4 +10,5 @@
     "editor.formatOnSave": true
     // "editor.formatOnSaveTimeout": 3000
     },
+    "python.pythonPath": "/home/crazybirdz/anaconda3/envs/django_with_react/bin/python",
 }
