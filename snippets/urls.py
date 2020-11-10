@@ -15,7 +15,7 @@ user_list = UserViewSet.as_view({"get": "list"})
 user_detail = UserViewSet.as_view({"get": "retrieve"})
 
 urlpatterns = [
-    path("", views.api_root),
+    # path("", api_root),
     path("snippets/", snippet_list, name="snippet-list"),
     path("snippets/<int:pk>", snippet_detail, name="snippet-detail"),
     path("snippets/<int:pk>/highlight/", snippet_highlight, name="snippet-highlight"),
